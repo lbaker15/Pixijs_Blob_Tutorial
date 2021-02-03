@@ -1,7 +1,4 @@
-$font-size: 1rem;
-$font-color: lch(53 105 40);
+@import '_variables.scss';
+@import 'splash.scss';
+@import 'pixi.scss';
 
-html {
-  font-size: $font-size;
-  color: $font-color;
-}
